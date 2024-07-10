@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 
-	int n;
+	int n,i,result=1;
 	cin>>n;
 	
 	int fact;
@@ -15,15 +15,11 @@ int main(){
 	    cout<<1;
 	}
 	else{
- 	    fact=
+ 	    for (i=0;i<=n;i++)
+		result*=n;    
 		
-		
+	}
 
-
-
-
-
-	
-	
+cout<<"factorial of the number :"<<result;
 	return 0;
 }
